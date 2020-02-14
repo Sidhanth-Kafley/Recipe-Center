@@ -38,7 +38,7 @@ print '<table id = "tabletrails"><tbody>';
 if ($IS_ADMIN == true){
 print '<tr><th>Delete</th><th>Edit</th><th>Name</th><th>Name of Recipe</th><th>Origin</th><th>Preparation Time</th><th>Cook Time</th><th>Flavor</th><th>Recipe</th></tr>';
 } else {
-print '<tr><th>Name</th><th>Name of Recipe</th><th>Origin</th><th>Preparation Time</th><th>Cook Time</th><th>Flavor</th><th>Recipe</th></tr>';
+print '<tr><th>Delete</th><th>Edit</th><th>Name</th><th>Name of Recipe</th><th>Origin</th><th>Preparation Time</th><th>Cook Time</th><th>Flavor</th><th>Recipe</th></tr>';
 }
 
 if (is_array($records)) {
