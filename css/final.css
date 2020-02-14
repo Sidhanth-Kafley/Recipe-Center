@@ -1,0 +1,308 @@
+/*------------------------   General Section ------------------------------ */
+#index{
+    background-color: #fad390;
+}
+h1, h2, h3, h4, h5, h6,h7{
+    padding: 1.5em 0 .8em 0;
+    text-align: center;
+    font: 2em Arial, Verdana;
+    color:black;
+    
+}
+.header{
+    padding: 1.5em 0 .8em 0;
+    text-align: center;
+}
+.movie{
+    margin-top: 5%;
+    margin-left:30%;
+}
+#form1{
+    background-color: #fad390;
+}
+#form2{
+    background-color: #fad390;
+}
+#Contact{
+    background-color: #fad390;
+}
+#aboutus{
+    background-color: #fad390;
+}
+#newRecipeForm{
+    background-color: #fad390;
+}
+#DeleteRecipeForm{
+    background-color: #fad390;
+}
+#tables{
+    background-color: #fad390;
+}
+#welcome{
+    background-color: #fad390;
+}
+/***************************** nav section  *************************/
+nav{
+    padding: 0.3em;
+    top:0;
+    width:100%;
+    text-align:center;   
+}
+.welcome{
+    font: 14px sans-serif; 
+    text-align: center;
+}
+nav a:link{
+
+    text-decoration:none;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+nav ol li{
+    font-size:18px;
+    display: inline-block;
+    list-style-type: none;
+    margin-right:50px;   
+}
+.welcome{
+    font: 14px sans-serif; 
+    text-align: center;
+}
+.ready {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+/*------------------------   form2 page  only  ------------------------------ */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.radio .contact {
+    border: 2px solid #00498e;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+.createAccount {
+    text-align: center;
+    margin-top: 20px;
+}
+.deleteBtn{
+margin-left: 45%;
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+/*------------------------   About us page ------------------------------ */
+.intro-type{
+    position: relative;
+    padding: 107px 0px 102px 0px !important;
+    padding: 68px 15px 72px !important;
+    width: 1830px;
+}
+
+.parallax {
+    background-attachment: inherit !important;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -10;
+}
+.mark,.SH,.SK,.dog{
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: white !important;
+    padding: 2em 0.2em !important;
+    top: 0px;
+    bottom: 0px;
+    width: 50%;
+}
+.company-heading h1 {
+    margin-bottom: 40px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    margin-left: -5em
+}
+.intro-type .container h1.white, .company-heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.intro-type .container h1.white, .company-heading h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.company-sections h2, .company-sections h4{
+    font-weight: 800;
+    font-size: 50px;
+}
+.company-sections h2, .company-sections h3,.company-sections h4,.company-sections h5{
+    font-family: 'proxima-nova', sans-serif;
+}
+.company-sections h3, .company-sections h5{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 14px 0;
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: capitalize;
+}
+.red {
+    width: 50%;
+    border-bottom: 1px solid #d2282e;
+    margin: 0 auto;
+    height: 16px;
+}
+.company-sections p {
+    margin-top: 20px;
+}
+.Top40{
+    margin-top: 40px !important;
+    text-align: left;
+    font-weight:300;
+    font-size: 22px;
+}
+.Top {
+    margin-top: 0px !important;
+    text-align: left;
+    font-weight:300;
+    font-size: 22px;
+}
+.company-sections{
+    padding: 100px 15px;
+}
+/*------------------------   footer ------------------------------ */
+
+footer{
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 20px;
+}
+.bottom-container{
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/*------------------------   Contact us page ------------------------------ */
+.contact-message{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-btn{
+  margin-left: 45%;
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.office{
+  width:50%;
+  margin:50px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+.office-img{
+  margin-top:5%;
+  float: left;
+  margin-right: 5%;
+  margin-left: auto;
+  width: 50%;}
+.contact-paragraph{
+    margin: 0 0 10px 450px;
+    font-size: 16px;
+}
+
+/*------------------------  Index page ------------------------------ */
+#tabletrails tr:nth-child(odd){
+    background-color: lightgrey;
+   
+}
+
+#tabletrails tr:nth-child(even){
+    background-color: #66BFBF;
+}
+
+#tabletrails tr {
+    border: 2px dashed;
+    padding: 15px;
+}
+
+
+
+#tabletrails td {
+   padding: 15px;
+}
+
+#tabletrails, #tabletrails th {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#tabletrails {
+    margin: auto;
+    border: 4px solid; 
+    width: 80%;
+    margin-bottom: 50px;
+}
