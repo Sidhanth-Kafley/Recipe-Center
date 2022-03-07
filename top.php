@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>CS148 Final Project</title>
+        <title>CS148 Lab5</title>
         <meta charset="utf-8">
         <meta name="author" content="Sydney Hildreth，Sidhanth Kafley，Zecheng Jin">
-        <meta name="description" content="This is a website for viewing and adding new recipes. 
-              You can create an account and add new recipes.">
+        <meta name="description" content="Final project assiginment">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,13 +29,7 @@
         include 'lib/security.php';
         include 'lib/validation-functions.php';
         include 'lib/mail-message.php';
-    
-        $user = htmlentities($_SERVER["REMOTE_USER"], ENT_QUOTES, "UTF-8");
-        $IS_ADMIN = in_array($user, $ADMIN);
-
-        
-
-        
+        $isAdmin =true;
         print '<!-- libraries complete-->';
         ?>	
 
